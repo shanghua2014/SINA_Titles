@@ -34,7 +34,7 @@ function submitTitles( titles, count ) {
 
         this.disabled = true;
 
-        // 后台把需数据
+        // 后台所需数据
         log(selectAnswer);
 
         // 答题结束：提示
