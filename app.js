@@ -27,8 +27,8 @@ function submitTitles( titles, count ) {
         if(!index) {
             alert('好好答题，别闹！');
             return;
-        } else if (index != 4) {
-            alert('有' + (4 - index) + '题没答！');
+        } else if (index != count) {
+            alert('有' + (count - index) + '题没答！');
             return;
         }
 
